@@ -1,0 +1,184 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -190px;
+    background-color: rgb(227, 208, 208);
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 200;
+    text-align: left;
+    color: beige;
+    padding: 0px 150px 0px 0px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu {
+    padding-left: 30px;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+ul li {
+    display:inline-block;
+    margin-right: 65px;
+}
+
+.container-info {
+    width: 620px;
+    position:absolute;
+    right: 170px;
+    top: 160px;
+}
+
+.titolo {
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.65em;    
+    padding-left: 3px;
+}
+
+.catch {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 40px;
+    padding-left: 4px;
+}
+
+.contacts {
+    color:beige;
+    text-decoration: none;
+}
+
+span{
+    color:beige;
+    margin-left: 25px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+}
+
+.button-email {
+    font-size: 20px;
+    border: 1px solid beige;
+    padding: 14px 25px;
+    border-radius: 25px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.button-email:hover {
+    background-color: beige;
+    color: #000000;
+}
+
+.linkedin {
+    text-decoration: none;
+    margin-left: 500px;
+}
+
+.instagram {
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.facebook {
+    text-decoration: none;
+    margin-left: 50px;  
+}
+
+.fa-brands {
+    color: beige; 
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    z-index: 100;
+    top: 735px;
+    right: 80px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 19px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 8px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #76835f;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    position:fixed;
+    display:block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact-form {
+    display: block;
+    display: none;
+}
+
+/* Stili per l'icona X */
+#close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+    color: #76835f;
+    font-weight:normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+#contact-form-header {
+    color: rgb(18, 24, 0);
+  
+}
